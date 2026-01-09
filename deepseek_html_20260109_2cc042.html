@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Academy - School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Sunrise Academy</span>
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#calendar" class="nav-link">Calendar</a></li>
+                <li><a href="#faculty" class="nav-link">Faculty</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Home Section -->
+        <section id="home" class="page-section active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Sunrise Academy</h1>
+                    <p class="subtitle">Excellence in Education Since 1995</p>
+                    <p class="hero-text">Where every student is empowered to learn, grow, and succeed in a nurturing environment.</p>
+                    <a href="#about" class="btn">Learn More</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="School building">
+                </div>
+            </div>
+
+            <div class="announcements">
+                <h2><i class="fas fa-bullhorn"></i> Important Announcements</h2>
+                <div class="announcement-grid">
+                    <div class="announcement-card urgent">
+                        <h3>Final Exams Schedule</h3>
+                        <p>December 15-20, 2023. Check the calendar for detailed timings.</p>
+                        <span class="date">Posted: Dec 1, 2023</span>
+                    </div>
+                    <div class="announcement-card">
+                        <h3>Parent-Teacher Conferences</h3>
+                        <p>Scheduled for December 10-12. Please book your slots online.</p>
+                        <span class="date">Posted: Nov 28, 2023</span>
+                    </div>
+                    <div class="announcement-card">
+                        <h3>Winter Break</h3>
+                        <p>School will be closed from December 23 to January 3.</p>
+                        <span class="date">Posted: Nov 25, 2023</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <div class="links-grid">
+                    <a href="#calendar" class="link-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span>School Calendar</span>
+                    </a>
+                    <a href="#resources" class="link-card">
+                        <i class="fas fa-book-open"></i>
+                        <span>Learning Resources</span>
+                    </a>
+                    <a href="#contact" class="link-card">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact Us</span>
+                    </a>
+                    <a href="#gallery" class="link-card">
+                        <i class="fas fa-images"></i>
+                        <span>Photo Gallery</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="page-section">
+            <div class="section-header">
+                <h2><i class="fas fa-school"></i> About Our School</h2>
+                <p>Our history, mission, and values</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card">
+                    <h3><i class="fas fa-history"></i> Our History</h3>
+                    <p>Founded in 1995, Sunrise Academy began as a small community school with just 50 students. Over the years, we have grown into a leading educational institution serving over 800 students from kindergarten through 12th grade.</p>
+                    <p>Our campus has expanded to include modern science labs, a library with over 20,000 books, and state-of-the-art sports facilities.</p>
+                </div>
+                
+                <div class="about-card">
+                    <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                    <p>To provide a comprehensive, challenging educational experience that prepares students for success in college, career, and life. We foster intellectual curiosity, critical thinking, and ethical responsibility in a supportive, inclusive community.</p>
+                </div>
+                
+                <div class="about-card">
+                    <h3><i class="fas fa-heart"></i> Our Values</h3>
+                    <ul class="values-list">
+                        <li><strong>Excellence:</strong> Striving for the highest standards in all we do</li>
+                        <li><strong>Integrity:</strong> Acting with honesty and moral courage</li>
+                        <li><strong>Respect:</strong> Valuing diversity and treating all with dignity</li>
+                        <li><strong>Responsibility:</strong> Being accountable for our actions and their impact</li>
+                        <li><strong>Community:</strong> Working together for the common good</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <h3>28+</h3>
+                    <p>Years of Excellence</p>
+                </div>
+                <div class="stat">
+                    <h3>800+</h3>
+                    <p>Students</p>
+                </div>
+                <div class="stat">
+                    <h3>65</h3>
+                    <p>Faculty Members</p>
+                </div>
+                <div class="stat">
+                    <h3>98%</h3>
+                    <p>College Acceptance</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calendar Section -->
+        <section id="calendar" class="page-section">
+            <div class="section-header">
+                <h2><i class="fas fa-calendar-alt"></i> School Calendar</h2>
+                <p>Important dates, events, and holidays</p>
+            </div>
+            
+            <div class="calendar-container">
+                <div class="calendar-nav">
+                    <button id="prevMonth"><i class="fas fa-chevron-left"></i></button>
+                    <h3 id="currentMonth">December 2023</h3>
+                    <button id="nextMonth"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="calendar">
+                    <div class="calendar-header">
+                        <div>Sun</div>
+                        <div>Mon</div>
+                        <div>Tue</div>
+                        <div>Wed</div>
+                        <div>Thu</div>
+                        <div>Fri</div>
+                        <div>Sat</div>
+                    </div>
+                    <div class="calendar-days" id="calendarDays">
+                        <!-- Calendar days will be generated by JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="upcoming-events">
+                    <h3><i class="fas fa-list-alt"></i> Upcoming Events</h3>
+                    <div class="event-list">
+                        <div class="event">
+                            <div class="event-date">
+                                <span class="day">15</span>
+                                <span class="month">Dec</span>
+                            </div>
+                            <div class="event-details">
+                                <h4>Final Exams Begin</h4>
+                                <p>All grades</p>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="event-date">
+                                <span class="day">20</span>
+                                <span class="month">Dec</span>
+                            </div>
+                            <div class="event-details">
+                                <h4>Last Day of Semester</h4>
+                                <p>Early dismissal at 12:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="event-date">
+                                <span class="day">23</span>
+                                <span class="month">Dec</span>
+                            </div>
+                            <div class="event-details">
+                                <h4>Winter Break Begins</h4>
+                                <p>School closed until Jan 3</p>
+                            </div>
+                        </div>
+                        <div class="event">
+                            <div class="event-date">
+                                <span class="day">10</span>
+                                <span class="month">Jan</span>
+                            </div>
+                            <div class="event-details">
+                                <h4>Spring Semester Begins</h4>
+                                <p>Regular schedule resumes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faculty Section -->
+        <section id="faculty" class="page-section">
+            <div class="section-header">
+                <h2><i class="fas fa-chalkboard-teacher"></i> Faculty & Staff</h2>
+                <p>Meet our dedicated team of educators</p>
+            </div>
+            
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Principal">
+                    </div>
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p class="faculty-role">Principal</p>
+                    <p class="faculty-bio">Ph.D. in Educational Leadership, 20+ years experience</p>
+                    <p class="faculty-email">s.johnson@sunrise.edu</p>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Math Teacher">
+                    </div>
+                    <h3>Mr. David Chen</h3>
+                    <p class="faculty-role">Mathematics Department Head</p>
+                    <p class="faculty-bio">M.S. in Mathematics, specializes in Calculus and Statistics</p>
+                    <p class="faculty-email">d.chen@sunrise.edu</p>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Science Teacher">
+                    </div>
+                    <h3>Ms. Maria Rodriguez</h3>
+                    <p class="faculty-role">Science Teacher</p>
+                    <p class="faculty-bio">M.S. in Biology, 15 years teaching experience</p>
+                    <p class="faculty-email">m.rodriguez@sunrise.edu</p>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-img">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="English Teacher">
+                    </div>
+                    <h3>Mr. James Wilson</h3>
+                    <p class="faculty-role">English Literature</p>
+                    <p class="faculty-bio">M.A. in English, published author, 12 years experience</p>
+                    <p class="faculty-email">j.wilson@sunrise.edu</p>
+                </div>
+            </div>
+            
+            <div class="department-list">
+                <h3>Department Contacts</h3>
+                <div class="departments">
+                    <div class="dept">
+                        <h4>Admissions Office</h4>
+                        <p>admissions@sunrise.edu</p>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="dept">
+                        <h4>Guidance Counseling</h4>
+                        <p>counseling@sunrise.edu</p>
+                        <p>(555) 123-4568</p>
+                    </div>
+                    <div class="dept">
+                        <h4>School Nurse</h4>
+                        <p>nurse@sunrise.edu</p>
+                        <p>(555) 123-4569</p>
+                    </div>
+                    <div class="dept">
+                        <h4>Administration</h4>
+                        <p>admin@sunrise.edu</p>
+                        <p>(555) 123-4570</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="page-section">
+            <div class="section-header">
+                <h2><i class="fas fa-book"></i> Student Resources</h2>
+                <p>Homework help, links, and documents</p>
+            </div>
+            
+            <div class="resources-grid">
+                <div class="resource-category">
+                    <h3><i class="fas fa-laptop-code"></i> Online Learning</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Khan Academy <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="#" target="_blank">Google Classroom <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="#" target="_blank">Duolingo <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="#" target="_blank">Quizlet <i class="fas fa-external-link-alt"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-category">
+                    <h3><i class="fas fa-file-pdf"></i> Documents & Forms</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-download"></i> Course Catalog 2023-24</a></li>
+                        <li><a href="#"><i class="fas fa-download"></i> Permission Slip Template</a></li>
+                        <li><a href="#"><i class="fas fa-download"></i> College Application Guide</a></li>
+                        <li><a href="#"><i class="fas fa-download"></i> Homework Policy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-category">
+                    <h3><i class="fas fa-question-circle"></i> Homework Help</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> Math Tutoring Schedule</a></li>
+                        <li><a href="#"><i class="fas fa-book-reader"></i> Writing Center Resources</a></li>
+                        <li><a href="#"><i class="fas fa-flask"></i> Science Lab Tutorials</a></li>
+                        <li><a href="#"><i class="fas fa-clock"></i> Study Skills Workshop</a></li>
+                    </ul>
+                </div>
+                
+                <div class="resource-category">
+                    <h3><i class="fas fa-link"></i> Useful Links</h3>
+                    <ul>
+                        <li><a href="#" target="_blank">Library Database <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="#" target="_blank">College Board <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="#" target="_blank">SAT Practice Tests <i class="fas fa-external-link-alt"></i></a></li>
+                        <li><a href="#" target="_blank">Scholarship Search <i class="fas fa-external-link-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="study-tips">
+                <h3><i class="fas fa-lightbulb"></i> Study Tips</h3>
+                <div class="tips">
+                    <div class="tip">
+                        <h4>Create a Schedule</h4>
+                        <p>Plan regular study times and stick to them</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Take Breaks</h4>
+                        <p>Study for 45-50 minutes, then take a 10-minute break</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Stay Organized</h4>
+                        <p>Use planners and keep notes in order</p>
+                    </div>
+                    <div class="tip">
+                        <h4>Ask for Help</h4>
+                        <p>Don't hesitate to ask teachers or peers for assistance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="page-section">
+            <div class="section-header">
+                <h2><i class="fas fa-images"></i> School Gallery</h2>
+                <p>Events, activities, and campus life</p>
+            </div>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="campus">Campus</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Science Fair">
+                    <div class="gallery-overlay">
+                        <p>Annual Science Fair 2023</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="sports">
+                    <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Basketball Game">
+                    <div class="gallery-overlay">
+                        <p>Championship Basketball Game</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="academic">
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <p>Interactive Classroom Session</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="campus">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Library">
+                    <div class="gallery-overlay">
+                        <p>School Library</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Graduation">
+                    <div class="gallery-overlay">
+                        <p>Graduation Ceremony 2023</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-category="sports">
+                    <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Soccer">
+                    <div class="gallery-overlay">
+                        <p>Soccer Team Practice</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-modal" id="galleryModal">
+                <span class="modal-close">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="modalCaption"></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page-section">
+            <div class="section-header">
+                <h2><i class="fas fa-envelope"></i> Contact Us</h2>
+                <p>Get in touch with Sunrise Academy</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3><i class="fas fa-map-marker-alt"></i> Our Location</h3>
+                    <p><strong>Address:</strong> 123 Education Street, Learning City, LC 12345</p>
+                    
+                    <h3><i class="fas fa-phone"></i> Contact Information</h3>
+                    <p><strong>Main Office:</strong> (555) 123-4567</p>
+                    <p><strong>Fax:</strong> (555) 123-4568</p>
+                    <p><strong>Email:</strong> info@sunrise.edu</p>
+                    
+                    <h3><i class="fas fa-clock"></i> Office Hours</h3>
+                    <p><strong>Monday - Friday:</strong> 7:30 AM - 4:00 PM</p>
+                    <p><strong>Saturday:</strong> 9:00 AM - 12:00 PM</p>
+                    <p><strong>Sunday:</strong> Closed</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form id="messageForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="admissions">Admissions Inquiry</option>
+                                <option value="academic">Academic Questions</option>
+                                <option value="feedback">Feedback/Suggestions</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="map-container">
+                    <h3><i class="fas fa-map"></i> Find Us</h3>
+                    <div class="map-placeholder">
+                        <p><i class="fas fa-map-pin"></i> Map Location</p>
+                        <p>123 Education Street, Learning City</p>
+                        <div class="map-img">
+                            <!-- In a real website, you would embed a Google Map here -->
+                            <p>Google Maps would be embedded here</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sunrise Academy</h3>
+                <p>Providing quality education since 1995. Empowering students for a brighter future.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, LC 12345</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@sunrise.edu</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2023 Sunrise Academy. All rights reserved. | School Website Project</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
